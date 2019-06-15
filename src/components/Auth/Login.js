@@ -5,21 +5,11 @@ import { Avatar, Button, CssBaseline, TextField,
          FormControlLabel, Checkbox, Link, Grid, Box,
          Typography, Paper} from "@material-ui/core";
 
-function MadeWithLove() {
-  return (
-    <Typography variant="body2" color="textSecondary" align="center">
-      {'Built with love by the '}
-      <Link color="inherit" href="https://material-ui.com/">
-        Material-UI
-      </Link>
-      {' team.'}
-    </Typography>
-  );
-}
 const styles = (theme) => ({
   root: {
     height: '100vh',
   },
+  spacing: [0, 2],
   image: {
     backgroundImage: 'url(https://source.unsplash.com/random)',
     backgroundRepeat: 'no-repeat',
@@ -27,21 +17,21 @@ const styles = (theme) => ({
     backgroundPosition: 'center',
   },
   paper: {
-    margin: theme.spacing(8, 4),
+    margin: 1,
     display: 'flex',
     flexDirection: 'column',
     alignItems: 'center',
   },
   avatar: {
-    margin: theme.spacing(1),
-    backgroundColor: theme.palette.secondary.main,
+    margin: 3,
+    backgroundColor: theme.palette.secondary,
   },
   form: {
     width: '100%', // Fix IE 11 issue.
-    marginTop: theme.spacing(1),
+    marginTop: 5,
   },
   submit: {
-    margin: theme.spacing(3, 0, 2),
+    margin: 3,
   },
 });
 
@@ -155,10 +145,7 @@ class Login extends React.Component {
                     {"Don't have an account? Sign Up"}
                   </Link>
                 </Grid>
-              </Grid>
-              <Box mt={5}>
-                <MadeWithLove />
-              </Box>
+              </Grid>;
             </form>
           </div>
         </Grid>
