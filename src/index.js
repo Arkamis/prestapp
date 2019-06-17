@@ -4,6 +4,7 @@ import App from "./components/App";
 import Login from "./components/Auth/Login";
 import Register from "./components/Auth/Register";
 import * as serviceWorker from './serviceWorker';
+import 'bootstrap/dist/css/bootstrap.css';
 
 import firebase from "./firebase";
 
