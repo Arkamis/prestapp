@@ -6,6 +6,7 @@ import Register from "./components/Auth/Register";
 import * as serviceWorker from './serviceWorker';
 import 'bootstrap/dist/css/bootstrap.css';
 
+
 import firebase from "./firebase";
 
 import { BrowserRouter as Router, Switch, Route} from "react-router-dom";

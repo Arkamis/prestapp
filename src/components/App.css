@@ -39,4 +39,12 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+.bgk-login2{
+  background-image: url("../img/plage.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+/* Register! */
 
