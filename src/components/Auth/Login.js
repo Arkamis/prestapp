@@ -55,12 +55,12 @@ class Login extends React.Component {
               <h3 className="my-2 text-center">Bienvido a PrestApp</h3>
               <Form className="my-5" onSubmit={this.handleSubmit}>
                 <Form.Group controlId="formBasicEmail">
-                  <Form.Label>N&uacute;mero de Celular</Form.Label>
+                  <Form.Label>Correo</Form.Label>
                   <Form.Control type="email" placeholder="Ingresa tu Email" name="email" onChange={this.handleChange}/>
                 </Form.Group>
                 <Form.Group controlId="formBasicPassword">
                   <Form.Label>Password</Form.Label>
-                  <Form.Control type="password" placeholder="Password" name="password" onChange={this.handleChange}/>
+                  <Form.Control type="password" placeholder="Password" name="password" onChange={this.handleChange} />
                 </Form.Group>
                 <Form.Text className="text-muted text-right">
                 <p>A&uacute;n no tienes cuenta?, <Link to="/register">Registrate GRATIS!</Link></p>

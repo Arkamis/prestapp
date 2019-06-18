@@ -146,7 +146,7 @@ class Register extends Component {
             <Col md={3} className="register-left text-white text-center pt-5 border-right border-warning">
               <h3>Bienvenido</h3>
               <p>Estas a unos cuantos segundos de poder agilizar y controlar tus deudas de una manera bastante sencilla!</p>
-              <ButtonLeft type="submit" className="my-5"><Link to="/login" className="text-white">Login</Link></ButtonLeft>
+              <Link to="/login" className="text-white"><ButtonLeft type="submit" className="my-5">Login</ButtonLeft></Link>
             </Col>
             <ColRight md={9} className="register-right">
               <h3 className="font-weight-bold text-center mt-4">Registrarse</h3>
